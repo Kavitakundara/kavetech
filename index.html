@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html id="html">
+  <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Home | Kave Tech</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style2.scss"/>
+    <link rel="icon" type="image/x-icon" href="drawables/dev-removebg-preview.png">
+     <script src="../ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <!-- 0. Navbar -->
+    
+    <section class="navbar" id ="navbar">
+      <div class="navbar__inner">
+        <a href="index.html" style="text-decoration: none;">
+          <h5 class="h5 navbar__logo--text">
+            <img src="drawables/logo-head.png"/>
+          </h5>
+        </a>
+        
+
+        <div class="navbar__button-wrapper">
+          <a href="#" class="button navbar__button u-button-special">Home</a>
+          <a href="project.html" class="button navbar__button" id="projects_goto">Projects</a>
+          <!-- <a href="#certificates" class="button navbar__button u-padding-left-small">Certificates</a> -->
+          <a href="#coding" class="button navbar__button u-padding-left-small">Community</a>
+          <a href="#contact" class="button navbar__button u-padding-left-small">Contact</a>
+        </div>
+
+        <div class="navbar__menubar" id="menubar" >
+          <div class="navbar__menubar--line" id="menubar__line">
+              &nbsp;
+          </div>
+        </div>
+    </section>
+
+    <!-- NAVBAR MOBILE SECTION  -->
+    <div class="navbar__mobile u-hidden" id="navbar_mobile">
+      <div class="navbar__button-wrapper--mobile">
+          <a href="index.html" class="h5 navbar__button u-button-special u-margin-bottom-3" id="homeNav">Home</a>
+          <a href="project.html" class="h5 navbar__button u-padding-left-small u-margin-bottom-3" id="projectNav">Projects</a>
+          <!-- <a href="index.html#certificates" class="h5 navbar__button u-padding-left-small u-margin-bottom-3" id="certNav">Certificates</a> -->
+          <div class="u-flex">
+            <a href="#coding" class="h5 navbar__button u-padding-left-small u-margin-bottom-3" id="communityNav">Community</a>
+            <span class="u-new-tag body2">New</span>
+          </div>
+          <a href="index.html#contact" class="h5 navbar__button u-padding-left-small u-margin-bottom-3" id="contactNav">Contact</a>
+      </div>
+    </div>
+    
+
+
+    <!-- 1. Hero Header -->
+
+    <section class="header" id="header">
+        <div class="header__inner">
+      
+            <div class="header__left">
+              
+
+                <h2 class="h2 header__heading">
+                    Kave Tech<br>
+                </h2>
+
+                <p class="header__tag body2">
+                  Website Designer | Developer 
+                </p>
+
+                
+
+                <p class="body1 header__sub-heading">
+                  In my work, I strive to create attractive,<br> aesthetically pleasing designs  
+                </p>
+
+                <!-- <a href = "#" class="btn--underline button header__cta">Let's chat</a> -->
+                
+
+                  <p class="button btn--neon  header__cta" id = "resume-btn" target="_blank">
+                    <!-- <a class="btn--neon__text button" href="https://drive.google.com/file/d/1BL6SYl_y8mepaneLY8qbUcWYJfZGQuik" target="_blank">View resume</a> -->
+                    <a class="btn--neon__text button" href = 'https://github.com/kavitakundara' target="_blank" style = 'text-decoration: none'>View Github</a>
+                  </p>       
+
+                <a href="#about">
+                  
+                </a>
+          
+            </div>
+            
+
+         
+        </div>
+    </section>
+
+    <!-- 2. Intro -->
+
+    <section class="about" id="about">
+        <div class="about__inner">
+            <div class="about__left">
+                
+                <div class="about-card" id="aboutCard1">
+                    <h6 class="about-card__heading h5">Web Design</h6>
+    
+                    <p class="about-card__text body2">I design interface with the help of HTML and CSS languages </p>
+    
+                    <p class="about-card__number button" style = 'color: #F9F4E8;'>30 Projects</p>
+
+                    <div class="about-card__img">
+                        <span class="iconify" data-icon="gis:measure-line"></span>
+                    </div>
+                </div>
+
+                <div class="about-card" id = 'aboutCard2'>
+                    <h6 class="about-card__heading h5">Wordpress Web</h6>
+    
+                    <p class="about-card__text body2">I develop dynamic websites with seamless plugins and themes.</p>
+    
+                    <p class="about-card__number button" style = 'color: #F9F4E8;'>10 Projects</p>
+
+                    <div class="about-card__img">
+                        <span class="iconify" data-icon="bi:code-slash"></span>
+                    </div>
+                </div>
+
+                <div class="about-card" id = 'aboutCard3'>
+                    <h6 class="about-card__heading h5">React Web</h6>
+    
+                    <p class="about-card__text body2">I can write react & frontend code</p>
+    
+                    <p class="about-card__number button" style = 'color: #F9F4E8;'>2 Projects</p>
+
+                    <div class="about-card__img">
+                        <span class="iconify" data-icon="ant-design:cloud-server-outlined"></span>
+                    </div>
+                </div>
+
+                <div class="about-card" id = 'aboutCard3'>
+                  <h6 class="about-card__heading h5">SEO/GMB</h6>
+  
+                  <p class="about-card__text body2">I manage profile to rank them on google with the help of my team.</p>
+  
+                  <p class="about-card__number button" style = 'color: #F9F4E8;'>15 Projects</p>
+
+                  <div class="about-card__img">
+                      <span class="iconify" data-icon="ant-design:cloud-server-outlined"></span>
+                  </div>
+              </div>
+
+            </div>
+
+            <div class="about__right">
+              <h6 class="about__heading h6">Intro</h6>
+
+              <h5 class="about__sub-heading h5">
+                Hello! I'm Kavita Kundara
+              </h5>
+
+              <p class="about__caption body1">Every great project begin with the  right people..</p>
+              
+              <p class="about__text body1">Namaste, I am Kavita. I am an entry-level web developer and a graduate. My primary programming language is HTML, CSS, and REACT. It has been more than a year since I started my journey as a web developer. I have completed a handful of projects that fit business & consumer needs. In addition, I am also an interface & experience designer, enabling me to design useful & attractive interfaces. I work with a team who helps complete your web projects.</p>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="projects u-mt-20" id="projects">
+      <div class="projects__inner">
+
+        <div class="heading-wrapper">
+          <h2 class="h2 heading-wrapper__heading">Skills</h2>
+          <h6 class="body1 heading-wrapper__sub-heading">All that I know!</h6>
+        </div>
+
+        <div class="projects__content-wrapper" id = 'skills_container-out'>
+
+          <div class="skills_contanier" id = 'skills_contanier'>
+            <div class="skills_skill" id = 'skills_skill'>
+              <img src="drawables/react.png" alt="" class = 'skills_icon'>
+            </div>
+
+            <div class="skills_skill">
+              <img src="drawables/wordpress.png" alt="" class = 'skills_icon'>
+            </div>
+
+            <div class="skills_skill">
+              <img src="drawables/ps.png" alt="" class = 'skills_icon'>
+            </div>
+
+            <div class="skills_skill" >
+              <img src="drawables/html5.png" alt="" class = 'skills_icon'>
+            </div>
+
+            <div class="skills_skill">
+              <img src="drawables/css3.png" alt="" class = 'skills_icon'>
+            </div>
+            <div class="skills_skill" >
+              <img src="drawables/git.png" alt="" class = 'skills_icon'>
+            </div>
+            
+            <div class="skills_skill">
+              <img src="drawables/github.png" alt="" class = 'skills_icon'>
+            </div>
+            
+            <div class="skills_skill">
+              <img src="drawables/figma.png" alt="" class = 'skills_icon'>
+            </div>            
+            <!-- Repeat -->
+
+
+            <div class="skills_skill">
+              <img src="drawables/react.png" alt="" class = 'skills_icon'>
+            </div>
+
+            <div class="skills_skill">
+              <img src="drawables/figma.png" alt="" class = 'skills_icon'>
+            </div>
+
+            <div class="skills_skill">
+              <img src="drawables/github.png" alt="" class = 'skills_icon'>
+            </div>
+
+            <div class="skills_skill" >
+              <img src="drawables/git.png" alt="" class = 'skills_icon'>
+            </div>
+
+            <div class="skills_skill">
+              <img src="drawables/wordpress.png" alt="" class = 'skills_icon'>
+            </div>
+
+            <div class="skills_skill">
+              <img src="drawables/css3.png" alt="" class = 'skills_icon'>
+            </div>
+
+            <div class="skills_skill" >
+              <img src="drawables/html5.png" alt="" class = 'skills_icon'>
+            </div>
+
+            <div class="skills_skill">
+              <img src="drawables/ps.png" alt="" class = 'skills_icon'>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <!-- project-gallery -->
+    <h2 class="h2-head">Projects</h2>
+    <section class="project">
+    
+      <div class="containerr">
+          <div class="card">
+              <div class="first-card"><img src="drawables/aarzoo.png" alt="">
+                  <a href="http://aarzoomakeover.com/" target="_blank">aarzoomakeover.com</a>
+                  <!-- <button>Add To Cart</button> -->
+              </div>
+              <div class="back-card"></div>
+              <!-- <div class="thid-card"></div> -->
+          </div>
+          <div class="card">
+            <div class="first-card"><img src="drawables/foodforlife-copy.png" alt="">
+              <a href="http://foodsforlife.co.in/" target="_blank">foodsforlife.co.in</a>
+                
+                <!-- <button>Add To Cart</button> -->
+            </div>
+            <div class="back-card"></div>
+            <div class="thid-card"></div>
+        </div>
+        <div class="card">
+          <div class="first-card"><img src="drawables/gangsta-copy.png" alt="">
+            <a href="https://gangstasparadise.in/" target="_blank">gangstaparadise.com</a>
+            <!-- <button>Add To Cart</button> -->
+          </div>
+          <div class="back-card"></div>
+          <div class="thid-card"></div>
+      </div> 
+   </div>    
+              
+    </section>
+    <div class="btn">
+      
+        <a href="project.html"><button>More Projects</button></a>
+      
+    </div>
+
+    <!-- project-gallery-end -->
+
+    <!-- 4. Portals  -->
+    <section class="projects u-mt-20" id="coding">
+      <div class="projects__inner">
+
+        <div class="heading-wrapper">
+          <h2 class="h2 heading-wrapper__heading">Platforms'Stats</h2>
+          <h6 class="body1 heading-wrapper__sub-heading">Hands on Coding</h6>
+        </div>
+
+        <div class="projects__content-wrapper">
+          
+
+          <!-- Porject-1: Kislay NGO Website -->
+          <div class="project-card" style="width: 25rem" id = 'platform1'>
+            <img src="drawables/gfg%202.jpg" alt="Kislay Seva Sansthan" class = "project-card__img" >
+  
+            <div class="project-card__wrapper">
+              <p class="h5 project-card__title">GeeksForGeeks</p>
+  
+            <!-- <a href="joinkislay.herokuapp.com" class="project-card__link button">Visit here &#x1F517;</span> </a> -->
+            <a href="javascript:void(0)" class="project-card__link button" target="_blank">
+              <span class="iconify" data-icon="bx:bx-link-external"></span> </a>
+            </div>
+          </div>
+
+           <!-- Porject-2: Yet to come -->
+           <div class="project-card" style="width: 25rem" id = 'platform2'>
+            <img src="drawables/leetcode2.jpg" alt="Kislay Seva Sansthan" class = "project-card__img">
+  
+            <div class="project-card__wrapper">
+              <p class="h5 project-card__title">LeetCode</p>
+  
+            
+  
+            <!-- <a href="joinkislay.herokuapp.com" class="project-card__link button">Visit here &#x1F517;</span> </a> -->
+            <a href="javascript:void(0)" class="project-card__link button" target="_blank">
+              <span class="iconify" data-icon="bx:bx-link-external"></span> </a>
+            </div>
+          </div>
+
+           <!-- Porject-3: Yet To Come -->
+           <div class="project-card" style="width: 25rem" id = 'platform3'>
+            <img src="drawables/codechef2.jpg" alt="Kislay Seva Sansthan" class = "project-card__img">
+  
+            <div class="project-card__wrapper">
+              <p class="h5 project-card__title">CodeChef</p>
+  
+            
+  
+            <!-- <a href="joinkislay.herokuapp.com" class="project-card__link button">Visit here &#x1F517;</span> </a> -->
+            <a href="javascript:void(0)" class="project-card__link button" target="_blank">
+              <span class="iconify" data-icon="bx:bx-link-external"></span> </a>
+            </div>
+          </div>
+
+          <div class="project-card" style="width: 25rem" id = 'platform4'>
+            <img src="drawables/hackerrank2.jpg" alt="Kislay Seva Sansthan" class = "project-card__img">
+  
+            <div class="project-card__wrapper">
+              <p class="h5 project-card__title">HackerRank</p>
+  
+            
+  
+            <!-- <a href="joinkislay.herokuapp.com" class="project-card__link button">Visit here &#x1F517;</span> </a> -->
+            <a href="https://www.hackerrank.com/IT_1901640130047?hr_r=1" class="project-card__link button" target="_blank">
+              <span class="iconify" data-icon="bx:bx-link-external"></span> </a>
+            </div>
+          </div>
+
+      </div>
+
+      <!-- <p class="button btn--neon projects__cta  u-mt-7">
+        <span class="btn--neon-1"></span>
+        <span class="btn--neon-2"></span>
+        <span class="btn--neon-3"></span>
+        <span class="btn--neon-4"></span>
+        View Other Accounts
+      </p> -->
+
+      </div>
+    </section>
+
+
+
+
+    <!-- 4. Testemonials -->
+    
+    <div class="testimonial">
+      <div class="card">
+        <div class="layer"></div>
+        <div class="content">
+          <p>I am happy with the results of my GMB account. Seriously the best website designer and digital marketer she is.</p>
+          
+          <div class="details">
+            <h2><span>Kamal Kumar</span>
+          </div>
+               </div>
+      </div>
+      
+          <div class="card">
+        <div class="layer"></div>
+        <div class="content">
+          <p> Professional, superb co-ordination, great experience overall. They know well how to manage a website projects..✨</p>
+         
+          <div class="details">
+            <h2><span>Sapna Mehara</span>
+          </div>
+               </div>
+      </div>
+      
+          <div class="card">
+        <div class="layer"></div>
+        <div class="content">
+          <p>It has delight to work with kavetech. They have well trained knowledge about managing projects. Love the work ❤</p>
+       
+          <div class="details">
+            <h2><span>Naman Kumar</span>
+          </div>
+               </div>
+      </div>
+      
+    </div>
+
+
+    <!-- 5. Contact -->
+
+    <section class="contact" id = "contact">
+      <div class="contact__inner">
+        <div class="heading-wrapper u-mt-7">
+          <h2 class="h2 heading-wrapper__heading">Let's connect</h2>
+          <h6 class="body1 heading-wrapper__sub-heading">Can we start with a "hi"!</h6>
+        </div>
+
+        <div class="contact__content-wrapper">
+
+          <a href="https://www.linkedin.com/in/kavita-kundara-136256214/" target="_blank"><img src="drawables/linkedin.svg" alt="" class="contact__img"></a>
+          <a href="https://github.com/Kavitakundara" target="blank"><img src="drawables/github.svg" alt="" class="contact__img"></a>
+          <a href="https://dribbble.com/kundara" target="blank"><img src="drawables/dribbble.svg" alt="" class="contact__img"></a>
+          <a href="mailto:kavitakundaraa22@gmail.com?subject=From%20your%20Portfolio" target="blank"><img src="drawables/outgoing_mail.svg" alt="" class="contact__img"></a>
+
+        </div>
+
+        
+      </div>
+    </section>
+
+    <!-- 6. Footer -->
+
+    <section class="footer">
+      <div class="footer__inner">
+        <h4 class="h6 footer__copyright">All copyrights reserved to Kave Tech &copy; 2022</h4>
+      </div>
+    </section>
+
+
+    <!-- ////////////////////////  JS Files  ///////////////////////////////// -->
+
+    <script src="js/script.js" async defer></script> 
+    <!-- <script src="script.js" async defer></script> -->
+    
+    <!-- <script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.min.js"></script> -->
+
+    <!-- ////////////////////////  FOnts Files  ///////////////////////////////// -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com/" />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&amp;display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&amp;display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Autour+One&amp;family=IM+Fell+English+SC&amp;display=swap" rel="stylesheet">
+
+    <!-- ////////////////////////  Icons Files  ///////////////////////////////// -->
+    <script src="../code.iconify.design/2/2.1.0/iconify.min.js"></script>
+
+
+  </body>
+
+</html>
