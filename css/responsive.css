@@ -805,7 +805,9 @@ section.contact-sec {
     .about-section {
         padding-left: 8px;
     }
-
+.row.contact-options {
+  margin-top: -16%;
+}
   }
 
   @media (min-width: 1024px) and  (max-width: 1170px) {
